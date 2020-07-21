@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--link to my css-->
+    <link href="assets/style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+
+    <title>Coding Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>All done!!</h1>
+        <br>
+        <div class="scoreboard">
+            <h5>Your score is: <span id="score"></span></h5>
+
+            <form id="name-form" method="POST">
+                <label for="name-text">Insert Name:</label>
+                <input type="text" placeholder="Insert Name" name="name-text" id="name-text" />
+            </form>
+
+            <button id="submit-btn" class="submit-btn btn">Submit</button>
+    
+            <br>
+            <h1>highscore: </h1>
+            <ul id="score-list"></ul>
+        </div>
+    </div>
+
+    <!--JavaScript -->
+    <script src="assets/main.js"></script>
+    <script src="assets/score.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>

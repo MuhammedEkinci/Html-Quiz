@@ -69,10 +69,10 @@ body.wrong {
     --hue: var(--hue-wrong);
 }
 
-.start-btn, .next-btn {
+.start-btn, .next-btn, .submitScore-btn, .submit-btn{
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 20px 10px;
 }
 
 .controls {
@@ -84,3 +84,19 @@ body.wrong {
 .hide {
     display: none;
 }
+
+#iTimeShow {
+    color: #FF0000;
+    float: right;
+    margin-right: 50px;
+}
+
+h1, h5{
+    margin: 10px;
+} 
+
+.submit-btn{
+    margin: 2px;
+    font-size: small;
+}
+

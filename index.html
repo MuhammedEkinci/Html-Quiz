@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--link to my css-->
-    <link href="assets/style.css" rel="stylesheet">z
+    <link href="assets/style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
 
@@ -15,6 +17,7 @@
   <body>
     <div class="container">
       <div id="question-container" class="hide">
+        <h4><span id="iTimeShow">Time Remaining: </span><br/><span id='timer' style="font-size:10px;"></span></h4>
           <div id="question">Question</div>
           <div id="answer-buttons" class="btn-grid">
               <button class="btn">Answer 1</button>
@@ -26,6 +29,8 @@
       <div class="controls">
           <button id="start-btn" class="start-btn btn">Start</button>
           <button id="next-btn" class="start-btn btn hide">Next</button>
+          <button id="submitScore-btn" class="submitScore-btn btn hide" onclick="location.href='scoreSubmit.html'" type="button">Submit Score</button>
+          <!--<a href="scoreSubmite.html" class="submitScore-btn btn hide" id="submitScore-btn">Submite Score</a>-->
       </div>
     </div>
 
