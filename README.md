@@ -19,5 +19,7 @@ link to page: https://muhammedekinci.github.io/Html-Quiz/index.html
 
 ![](images/correct.png)
 
+![](images/wrong.png)
+
 
 
