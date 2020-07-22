@@ -11,3 +11,6 @@ If they asnswer right they get a point and move on to the next question, if they
 At the end it will ask for their name and it will display their name and points on a score board
 
 link to page: https://muhammedekinci.github.io/Html-Quiz/index.html
+
+
+![](images/Home-page.png)
