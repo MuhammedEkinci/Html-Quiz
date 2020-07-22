@@ -23,4 +23,7 @@ link to page: https://muhammedekinci.github.io/Html-Quiz/index.html
 
 ![](images/scoreboard.png)
 
+![](images/username-input.png)
+
+
 
