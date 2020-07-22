@@ -9,6 +9,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
 
+
 let questions = [
   {
     question: "What is 2 * 20?",
@@ -102,6 +103,9 @@ choices.forEach(choice => {
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     }
+    else if(classToApply === "incorrect"){
+        timeleft -= 5;
+    }
 
     selectedChoice.parentElement.classList.add(classToApply);
 
@@ -116,5 +120,23 @@ incrementScore = num => {
   score += num;
   scoreText.innerText = score;
 };
+
+//-----------timer------------//
+var timer = document.querySelector(".time");
+var timeleft = 80;
+
+function timeCounter() {
+    var timerInterval = setInterval(function() {
+        timeleft--;
+        timer.textContent = timeleft;
+
+        if(timeleft === 0) {
+            localStorage.setItem("mostRecentScore", score);
+            return window.location.assign("end.html");
+        }
+    }, 1000);
+}
+
+timeCounter();
 
 startGame();

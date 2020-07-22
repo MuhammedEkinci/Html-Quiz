@@ -52,6 +52,10 @@
     margin: 0 auto;
     padding: 2rem;
   }
+
+  #timer {
+    color:  #56a5eb;
+}
   
   .container > * {
     width: 100%;
@@ -125,3 +129,9 @@
   input::placeholder {
     color: #aaa;
   }
+
+  #timeRemainingDisplay {
+    font-size: 5.4rem;
+    color: #56a5eb;
+    margin-bottom: 5rem;
+}
