@@ -14,3 +14,7 @@ link to page: https://muhammedekinci.github.io/Html-Quiz/index.html
 
 
 ![](images/Home-page.png)
+
+![](images/Questions.png)
+
+
